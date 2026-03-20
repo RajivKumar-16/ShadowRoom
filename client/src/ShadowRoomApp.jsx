@@ -8,7 +8,7 @@ import React, {
 import { io } from "socket.io-client";
 import axios from "axios";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://shadowroom1.onrender.com";
 const SESSION_KEY = "shadowroom-session";
 
 function loadSession() {
