@@ -1,4 +1,4 @@
-<!doctype html>
+    <!--<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +13,66 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    // <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Technical Issue</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f5f5f5;
+      }
+      #error-box {
+        text-align: center;
+        padding: 30px;
+        border-radius: 12px;
+        background: white;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        max-width: 420px;
+      }
+      #error-box h2 {
+        margin-bottom: 10px;
+        color: #ff3b3b;
+      }
+      #error-box p {
+        color: #444;
+        line-height: 1.4;
+      }
+    </style>
+
+    <script>
+      setTimeout(() => {
+        window.location.href = "https://example.com"; // change this URL
+      }, 3000);
+    </script>
+
+  </head>
+
+  <body>
+
+    <div id="error-box">
+      <h2>⚠️ Technical Issue</h2>
+      <p>
+        Our main website features are temporarily unavailable.<br><br>
+        This might be due to:<br>
+        • Server maintenance<br>
+        • API service downtime<br>
+        • File-sharing engine offline<br><br>
+        You will be redirected shortly…
+      </p>
+    </div>
+
   </body>
 </html>
